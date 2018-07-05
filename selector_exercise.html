@@ -145,7 +145,50 @@ a:visited {
 	color: gray;
 }
 
+<!--Another model Tic Tac Toe Board!-->
 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+</head>
+<body>
+<h1> Tic Tac Toe </h1>
+	<table>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+</body>
+</html>
+<!--for html above css file below-->
+h1 {
+    text-align: auto;
+}
+td {
+	width: 100px;
+	height: 100px;
+}
+tr:nth-of-type(2) td {
+    border-top: 2px dotted #000;
+    border-bottom: 2px dotted #000;
+}
+td:nth-of-type(2) {
+	border-right: 2px dotted #000;
+	border-left: 2px dotted #000;
+}
 
 
 
